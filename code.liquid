@@ -1,0 +1,11 @@
+  <script type="text/javascript" src="{{'sticky-sidebar.js' | asset_url }}"></script>
+  <script type="text/javascript" src="{{'resize-sensor.js' | asset_url }}"></script>
+  <script type="text/javascript">
+    //if ($(document).width() > 767) { }
+	  var stickySidebar = new StickySidebar('#stickygallery', {
+		topSpacing: 70,
+		bottomSpacing: 0,
+		containerSelector: '.flex.medium-down--flex-wrap',
+		innerWrapperSelector: '.product-gallery'
+      });
+  </script>
