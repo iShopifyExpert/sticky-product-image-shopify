@@ -1,0 +1,1 @@
+# sticky-product-image-shopify
